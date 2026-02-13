@@ -3,7 +3,7 @@
 Transforming messy data into meaningful business and research insights—turning raw datasets into clean, actionable analyses ready for real-world impact.
 This repository is a curated collection of data analysis projects, showcasing workflows from raw data to clean, analysis-ready datasets with business-relevant insights.
 
-🛠 Tech Stack
+**Tech Stack**
 Python: pandas, numpy
 Excel / Google Sheets
 Jupyter Notebooks
@@ -25,14 +25,14 @@ Version Control: Git & GitHub
 4. Date Column: Mixed formats and text dates → time-based analysis blocked.
 5. Duplicates: Repeated Product IDs → violates entity uniqueness, inflates counts.
 
-✅ Cleaning Approach & Actions
+**Cleaning Approach & Actions**
 1. Text Normalization: Trim whitespace, unify capitalization, standardize names → reliable grouping.
 2. Quantity Column: Convert to numeric, median imputation → aggregation-safe.
 3. Price Column: Numeric coercion, median imputation → accurate financial metrics.
 4. Date Column: Convert text to consistent date format → time-series analysis enabled.
 5. Duplicates: Detect and remove invalid duplicates → maintain referential integrity.
 
-📈 Final Dataset Improvements
+**Final Dataset Improvements**
 1. Numeric fields strictly numeric, no "NaN" text values
 2. Standardized categorical fields
 3. Dates fully normalized
@@ -41,7 +41,7 @@ Version Control: Git & GitHub
 6. Structured as Excel Table for scalability
 Outcome: Dataset is now ready for EDA, dashboarding (Power BI/Tableau), SQL imports, and predictive modeling.
 
-🎯 Skills Demonstrated
+**Skills Demonstrated**
 1. Data auditing & quality assessment
 2. Data type coercion & validation
 3. Median-based imputation strategy
